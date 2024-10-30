@@ -1,0 +1,44 @@
+{
+  "name": "capital-gains",
+  "version": "1.0.0",
+  "description": "<!-- -->",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "standard --fix",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:staged": "lint-staged",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.4",
+    "@vitest/ui": "^2.1.4",
+    "lint-staged": "^15.0.2",
+    "standard": "^17.1.0",
+    "vitest": "^2.1.4"
+  },
+  "standard": {
+    "env": [
+      "jest",
+      "node"
+    ]
+  },
+  "directories": {
+    "test": "test"
+  }
+}
