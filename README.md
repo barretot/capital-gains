@@ -1,15 +1,9 @@
 <div align="center">
-  <img src="./docs/img/logo.svg" width="200"  style="margin-bottom: 30px" alt="" />
+  <img src="./docs/img/logo.webp" width="200"  style="margin-bottom: 30px" alt="" />
   <br>
-  <img src="https://img.shields.io/badge/maintainer-NuBank%20-purple.svg" alt="Maintainer">
+  <img src="https://img.shields.io/badge/maintainer-barretot%20-black.svg" alt="Maintainer">
   <img src="https://img.shields.io/badge/version-1.0.0-orange.svg" alt="Version">
   <img src="https://img.shields.io/badge/NodeJS-20.16.0-green.svg" alt="NodeJS">
-
-  <div>
-    <a href="https://img.shields.io/badge/maintainer-NuBank%20-purple.svg"></a>
-    <a href="https://img.shields.io/badge/version-1.0.0-orange.svg"></a>
-    <a href="https://img.shields.io/badge/NodeJS-20.16.0-green.svg"></a>
-  </div>
 
   <h1 align="center">CAPITAL GAINS</h1>
 </div>
@@ -135,7 +129,7 @@ Esse software utilizou as tecnologias:
   <li>
     <a href="https://vitest.dev/">
       <img src="https://cdn.svgporn.com/logos/vitest.svg" alt="Jest" width="20">
-      Jest
+      Vitest
     </a>
   </li>
   <li>
